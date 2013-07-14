@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		71366ED431AC4481A81E34E1 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CE39F4D79B44A34B7ABA8D4 /* libPods.a */; };
 		F51EBA5C17761FAD00485302 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F51EBA5B17761FAD00485302 /* UIKit.framework */; };
 		F51EBA5E17761FAD00485302 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F51EBA5D17761FAD00485302 /* Foundation.framework */; };
 		F51EBA6017761FAD00485302 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F51EBA5F17761FAD00485302 /* CoreGraphics.framework */; };
@@ -23,6 +24,33 @@
 		F51EBA8217761FAD00485302 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F51EBA5D17761FAD00485302 /* Foundation.framework */; };
 		F51EBA8A17761FAD00485302 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F51EBA8817761FAD00485302 /* InfoPlist.strings */; };
 		F51EBA8D17761FAD00485302 /* XTodoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F51EBA8C17761FAD00485302 /* XTodoTests.m */; };
+		F5A5E590177623EC00B27EF1 /* Group.m in Sources */ = {isa = PBXBuildFile; fileRef = F5A5E576177623EB00B27EF1 /* Group.m */; };
+		F5A5E591177623EC00B27EF1 /* Interface.m in Sources */ = {isa = PBXBuildFile; fileRef = F5A5E578177623EB00B27EF1 /* Interface.m */; };
+		F5A5E592177623EC00B27EF1 /* Member.m in Sources */ = {isa = PBXBuildFile; fileRef = F5A5E57A177623EB00B27EF1 /* Member.m */; };
+		F5A5E593177623EC00B27EF1 /* NSObject+AsyncWait.m in Sources */ = {isa = PBXBuildFile; fileRef = F5A5E57C177623EB00B27EF1 /* NSObject+AsyncWait.m */; };
+		F5A5E595177623EC00B27EF1 /* Runtime.m in Sources */ = {isa = PBXBuildFile; fileRef = F5A5E580177623EB00B27EF1 /* Runtime.m */; };
+		F5A5E596177623EC00B27EF1 /* Todo.m in Sources */ = {isa = PBXBuildFile; fileRef = F5A5E582177623EB00B27EF1 /* Todo.m */; };
+		F5A5E599177623EC00B27EF1 /* GroupGuideControll.m in Sources */ = {isa = PBXBuildFile; fileRef = F5A5E58A177623EC00B27EF1 /* GroupGuideControll.m */; };
+		F5A5E59A177623EC00B27EF1 /* TodoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F5A5E58C177623EC00B27EF1 /* TodoCell.m */; };
+		F5A5E59B177623EC00B27EF1 /* TodoListController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5A5E58E177623EC00B27EF1 /* TodoListController.m */; };
+		F5A5E59C177623EC00B27EF1 /* TodoListController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5A5E58F177623EC00B27EF1 /* TodoListController.xib */; };
+		F5A5E59F177623F300B27EF1 /* usr.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5A5E59E177623F300B27EF1 /* usr.jpg */; };
+		F5A5E5AA1776266B00B27EF1 /* F.m in Sources */ = {isa = PBXBuildFile; fileRef = F5A5E5A31776266B00B27EF1 /* F.m */; };
+		F5A5E5AB1776266B00B27EF1 /* NSArray+F.m in Sources */ = {isa = PBXBuildFile; fileRef = F5A5E5A51776266B00B27EF1 /* NSArray+F.m */; };
+		F5A5E5AC1776266B00B27EF1 /* NSDictionary+F.m in Sources */ = {isa = PBXBuildFile; fileRef = F5A5E5A71776266B00B27EF1 /* NSDictionary+F.m */; };
+		F5A5E5AD1776266B00B27EF1 /* NSNumber+F.m in Sources */ = {isa = PBXBuildFile; fileRef = F5A5E5A91776266B00B27EF1 /* NSNumber+F.m */; };
+		F5BAC83617801DED003DD794 /* MemberController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5BAC83517801DED003DD794 /* MemberController.m */; };
+		F5BAC83C17801FFF003DD794 /* MemberCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F5BAC83B17801FFF003DD794 /* MemberCell.m */; };
+		F5BAC840178020C1003DD794 /* GroupListController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5BAC83E178020C1003DD794 /* GroupListController.m */; };
+		F5BAC841178020C1003DD794 /* GroupListController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5BAC83F178020C1003DD794 /* GroupListController.xib */; };
+		F5BAC844178021E0003DD794 /* SlideController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5BAC843178021E0003DD794 /* SlideController.m */; };
+		F5BAC847178026CD003DD794 /* GroupCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F5BAC846178026CC003DD794 /* GroupCell.m */; };
+		F5BAC84B17807600003DD794 /* GroupDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5BAC849178075FF003DD794 /* GroupDetailController.m */; };
+		F5BAC84C17807600003DD794 /* GroupDetailController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5BAC84A17807600003DD794 /* GroupDetailController.xib */; };
+		F5BAC85017807BC0003DD794 /* TodoDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5BAC84E17807BBF003DD794 /* TodoDetailController.m */; };
+		F5BAC85117807BC0003DD794 /* TodoDetailController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5BAC84F17807BC0003DD794 /* TodoDetailController.xib */; };
+		F5D8434D1777061400460AAC /* ProcessInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = F5D8434C1777061300460AAC /* ProcessInfo.m */; };
+		F5E0F15117896C660009F7C4 /* ProcessCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F5E0F15017896C660009F7C4 /* ProcessCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +64,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0CE39F4D79B44A34B7ABA8D4 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A4AEE1545BF4147B611B72D /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
 		F51EBA5817761FAD00485302 /* XTodo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XTodo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F51EBA5B17761FAD00485302 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		F51EBA5D17761FAD00485302 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -58,6 +88,57 @@
 		F51EBA8917761FAD00485302 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F51EBA8B17761FAD00485302 /* XTodoTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XTodoTests.h; sourceTree = "<group>"; };
 		F51EBA8C17761FAD00485302 /* XTodoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XTodoTests.m; sourceTree = "<group>"; };
+		F5A5E575177623EB00B27EF1 /* Group.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Group.h; sourceTree = "<group>"; };
+		F5A5E576177623EB00B27EF1 /* Group.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Group.m; sourceTree = "<group>"; };
+		F5A5E577177623EB00B27EF1 /* Interface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Interface.h; sourceTree = "<group>"; };
+		F5A5E578177623EB00B27EF1 /* Interface.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Interface.m; sourceTree = "<group>"; };
+		F5A5E579177623EB00B27EF1 /* Member.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Member.h; sourceTree = "<group>"; };
+		F5A5E57A177623EB00B27EF1 /* Member.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Member.m; sourceTree = "<group>"; };
+		F5A5E57B177623EB00B27EF1 /* NSObject+AsyncWait.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+AsyncWait.h"; sourceTree = "<group>"; };
+		F5A5E57C177623EB00B27EF1 /* NSObject+AsyncWait.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+AsyncWait.m"; sourceTree = "<group>"; };
+		F5A5E57F177623EB00B27EF1 /* Runtime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Runtime.h; sourceTree = "<group>"; };
+		F5A5E580177623EB00B27EF1 /* Runtime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Runtime.m; sourceTree = "<group>"; };
+		F5A5E581177623EB00B27EF1 /* Todo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Todo.h; sourceTree = "<group>"; };
+		F5A5E582177623EB00B27EF1 /* Todo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Todo.m; sourceTree = "<group>"; };
+		F5A5E583177623EB00B27EF1 /* StdPch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StdPch.h; sourceTree = "<group>"; };
+		F5A5E589177623EC00B27EF1 /* GroupGuideControll.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GroupGuideControll.h; sourceTree = "<group>"; };
+		F5A5E58A177623EC00B27EF1 /* GroupGuideControll.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GroupGuideControll.m; sourceTree = "<group>"; };
+		F5A5E58B177623EC00B27EF1 /* TodoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TodoCell.h; sourceTree = "<group>"; };
+		F5A5E58C177623EC00B27EF1 /* TodoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TodoCell.m; sourceTree = "<group>"; };
+		F5A5E58D177623EC00B27EF1 /* TodoListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TodoListController.h; sourceTree = "<group>"; };
+		F5A5E58E177623EC00B27EF1 /* TodoListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TodoListController.m; sourceTree = "<group>"; };
+		F5A5E58F177623EC00B27EF1 /* TodoListController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TodoListController.xib; sourceTree = "<group>"; };
+		F5A5E59E177623F300B27EF1 /* usr.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = usr.jpg; sourceTree = "<group>"; };
+		F5A5E5A21776266B00B27EF1 /* F.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = F.h; sourceTree = "<group>"; };
+		F5A5E5A31776266B00B27EF1 /* F.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = F.m; sourceTree = "<group>"; };
+		F5A5E5A41776266B00B27EF1 /* NSArray+F.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+F.h"; sourceTree = "<group>"; };
+		F5A5E5A51776266B00B27EF1 /* NSArray+F.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+F.m"; sourceTree = "<group>"; };
+		F5A5E5A61776266B00B27EF1 /* NSDictionary+F.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+F.h"; sourceTree = "<group>"; };
+		F5A5E5A71776266B00B27EF1 /* NSDictionary+F.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+F.m"; sourceTree = "<group>"; };
+		F5A5E5A81776266B00B27EF1 /* NSNumber+F.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNumber+F.h"; sourceTree = "<group>"; };
+		F5A5E5A91776266B00B27EF1 /* NSNumber+F.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNumber+F.m"; sourceTree = "<group>"; };
+		F5BAC83417801DED003DD794 /* MemberController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MemberController.h; sourceTree = "<group>"; };
+		F5BAC83517801DED003DD794 /* MemberController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MemberController.m; sourceTree = "<group>"; };
+		F5BAC83A17801FFF003DD794 /* MemberCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MemberCell.h; sourceTree = "<group>"; };
+		F5BAC83B17801FFF003DD794 /* MemberCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MemberCell.m; sourceTree = "<group>"; };
+		F5BAC83D178020C0003DD794 /* GroupListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GroupListController.h; sourceTree = "<group>"; };
+		F5BAC83E178020C1003DD794 /* GroupListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GroupListController.m; sourceTree = "<group>"; };
+		F5BAC83F178020C1003DD794 /* GroupListController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GroupListController.xib; sourceTree = "<group>"; };
+		F5BAC842178021E0003DD794 /* SlideController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideController.h; sourceTree = "<group>"; };
+		F5BAC843178021E0003DD794 /* SlideController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlideController.m; sourceTree = "<group>"; };
+		F5BAC845178026CC003DD794 /* GroupCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GroupCell.h; sourceTree = "<group>"; };
+		F5BAC846178026CC003DD794 /* GroupCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GroupCell.m; sourceTree = "<group>"; };
+		F5BAC848178075FF003DD794 /* GroupDetailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GroupDetailController.h; sourceTree = "<group>"; };
+		F5BAC849178075FF003DD794 /* GroupDetailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GroupDetailController.m; sourceTree = "<group>"; };
+		F5BAC84A17807600003DD794 /* GroupDetailController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GroupDetailController.xib; sourceTree = "<group>"; };
+		F5BAC84D17807BBF003DD794 /* TodoDetailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TodoDetailController.h; sourceTree = "<group>"; };
+		F5BAC84E17807BBF003DD794 /* TodoDetailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TodoDetailController.m; sourceTree = "<group>"; };
+		F5BAC84F17807BC0003DD794 /* TodoDetailController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TodoDetailController.xib; sourceTree = "<group>"; };
+		F5D8434A177703B100460AAC /* util.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = util.h; sourceTree = "<group>"; };
+		F5D8434B1777061300460AAC /* ProcessInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProcessInfo.h; sourceTree = "<group>"; };
+		F5D8434C1777061300460AAC /* ProcessInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProcessInfo.m; sourceTree = "<group>"; };
+		F5E0F14F17896C660009F7C4 /* ProcessCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProcessCell.h; sourceTree = "<group>"; };
+		F5E0F15017896C660009F7C4 /* ProcessCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProcessCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +149,7 @@
 				F51EBA5C17761FAD00485302 /* UIKit.framework in Frameworks */,
 				F51EBA5E17761FAD00485302 /* Foundation.framework in Frameworks */,
 				F51EBA6017761FAD00485302 /* CoreGraphics.framework in Frameworks */,
+				71366ED431AC4481A81E34E1 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,10 +169,13 @@
 		F51EBA4F17761FAD00485302 = {
 			isa = PBXGroup;
 			children = (
+				F5A5E573177623EB00B27EF1 /* Class */,
+				F5A5E59D177623F300B27EF1 /* Resource */,
 				F51EBA6117761FAD00485302 /* XTodo */,
 				F51EBA8517761FAD00485302 /* XTodoTests */,
 				F51EBA5A17761FAD00485302 /* Frameworks */,
 				F51EBA5917761FAD00485302 /* Products */,
+				2A4AEE1545BF4147B611B72D /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -110,6 +195,7 @@
 				F51EBA5D17761FAD00485302 /* Foundation.framework */,
 				F51EBA5F17761FAD00485302 /* CoreGraphics.framework */,
 				F51EBA7F17761FAD00485302 /* SenTestingKit.framework */,
+				0CE39F4D79B44A34B7ABA8D4 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -160,6 +246,113 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		F5A5E573177623EB00B27EF1 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				F5A5E5A01776266B00B27EF1 /* Util */,
+				F5A5E574177623EB00B27EF1 /* Core */,
+				F5A5E583177623EB00B27EF1 /* StdPch.h */,
+				F5A5E584177623EC00B27EF1 /* View */,
+			);
+			name = Class;
+			path = XTodo/Class;
+			sourceTree = "<group>";
+		};
+		F5A5E574177623EB00B27EF1 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				F5A5E575177623EB00B27EF1 /* Group.h */,
+				F5A5E576177623EB00B27EF1 /* Group.m */,
+				F5A5E577177623EB00B27EF1 /* Interface.h */,
+				F5A5E578177623EB00B27EF1 /* Interface.m */,
+				F5A5E579177623EB00B27EF1 /* Member.h */,
+				F5A5E57A177623EB00B27EF1 /* Member.m */,
+				F5A5E57B177623EB00B27EF1 /* NSObject+AsyncWait.h */,
+				F5A5E57C177623EB00B27EF1 /* NSObject+AsyncWait.m */,
+				F5A5E57F177623EB00B27EF1 /* Runtime.h */,
+				F5A5E580177623EB00B27EF1 /* Runtime.m */,
+				F5A5E581177623EB00B27EF1 /* Todo.h */,
+				F5A5E582177623EB00B27EF1 /* Todo.m */,
+				F5D8434B1777061300460AAC /* ProcessInfo.h */,
+				F5D8434C1777061300460AAC /* ProcessInfo.m */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		F5A5E584177623EC00B27EF1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F5A5E588177623EC00B27EF1 /* Once */,
+				F5A5E58B177623EC00B27EF1 /* TodoCell.h */,
+				F5A5E58C177623EC00B27EF1 /* TodoCell.m */,
+				F5A5E58D177623EC00B27EF1 /* TodoListController.h */,
+				F5A5E58E177623EC00B27EF1 /* TodoListController.m */,
+				F5A5E58F177623EC00B27EF1 /* TodoListController.xib */,
+				F5BAC83D178020C0003DD794 /* GroupListController.h */,
+				F5BAC83E178020C1003DD794 /* GroupListController.m */,
+				F5BAC83F178020C1003DD794 /* GroupListController.xib */,
+				F5BAC83417801DED003DD794 /* MemberController.h */,
+				F5BAC83517801DED003DD794 /* MemberController.m */,
+				F5BAC83A17801FFF003DD794 /* MemberCell.h */,
+				F5BAC83B17801FFF003DD794 /* MemberCell.m */,
+				F5BAC842178021E0003DD794 /* SlideController.h */,
+				F5BAC843178021E0003DD794 /* SlideController.m */,
+				F5BAC845178026CC003DD794 /* GroupCell.h */,
+				F5BAC846178026CC003DD794 /* GroupCell.m */,
+				F5BAC848178075FF003DD794 /* GroupDetailController.h */,
+				F5BAC849178075FF003DD794 /* GroupDetailController.m */,
+				F5BAC84A17807600003DD794 /* GroupDetailController.xib */,
+				F5BAC84D17807BBF003DD794 /* TodoDetailController.h */,
+				F5BAC84E17807BBF003DD794 /* TodoDetailController.m */,
+				F5BAC84F17807BC0003DD794 /* TodoDetailController.xib */,
+				F5E0F14F17896C660009F7C4 /* ProcessCell.h */,
+				F5E0F15017896C660009F7C4 /* ProcessCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F5A5E588177623EC00B27EF1 /* Once */ = {
+			isa = PBXGroup;
+			children = (
+				F5A5E589177623EC00B27EF1 /* GroupGuideControll.h */,
+				F5A5E58A177623EC00B27EF1 /* GroupGuideControll.m */,
+			);
+			path = Once;
+			sourceTree = "<group>";
+		};
+		F5A5E59D177623F300B27EF1 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				F5A5E59E177623F300B27EF1 /* usr.jpg */,
+			);
+			name = Resource;
+			path = XTodo/Resource;
+			sourceTree = "<group>";
+		};
+		F5A5E5A01776266B00B27EF1 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				F5A5E5A11776266B00B27EF1 /* FAddtion */,
+				F5D8434A177703B100460AAC /* util.h */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		F5A5E5A11776266B00B27EF1 /* FAddtion */ = {
+			isa = PBXGroup;
+			children = (
+				F5A5E5A21776266B00B27EF1 /* F.h */,
+				F5A5E5A31776266B00B27EF1 /* F.m */,
+				F5A5E5A41776266B00B27EF1 /* NSArray+F.h */,
+				F5A5E5A51776266B00B27EF1 /* NSArray+F.m */,
+				F5A5E5A61776266B00B27EF1 /* NSDictionary+F.h */,
+				F5A5E5A71776266B00B27EF1 /* NSDictionary+F.m */,
+				F5A5E5A81776266B00B27EF1 /* NSNumber+F.h */,
+				F5A5E5A91776266B00B27EF1 /* NSNumber+F.m */,
+			);
+			path = FAddtion;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -167,9 +360,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F51EBA9017761FAD00485302 /* Build configuration list for PBXNativeTarget "XTodo" */;
 			buildPhases = (
+				C4B44EB99E9A4CB1ABB0F63C /* Check Pods Manifest.lock */,
 				F51EBA5417761FAD00485302 /* Sources */,
 				F51EBA5517761FAD00485302 /* Frameworks */,
 				F51EBA5617761FAD00485302 /* Resources */,
+				1CA949690A2A440DA4DD621E /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -236,6 +431,11 @@
 				F51EBA7017761FAD00485302 /* Default@2x.png in Resources */,
 				F51EBA7217761FAD00485302 /* Default-568h@2x.png in Resources */,
 				F51EBA7817761FAD00485302 /* ViewController.xib in Resources */,
+				F5A5E59C177623EC00B27EF1 /* TodoListController.xib in Resources */,
+				F5A5E59F177623F300B27EF1 /* usr.jpg in Resources */,
+				F5BAC841178020C1003DD794 /* GroupListController.xib in Resources */,
+				F5BAC84C17807600003DD794 /* GroupDetailController.xib in Resources */,
+				F5BAC85117807BC0003DD794 /* TodoDetailController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,6 +450,34 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		1CA949690A2A440DA4DD621E /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+		};
+		C4B44EB99E9A4CB1ABB0F63C /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+		};
 		F51EBA7C17761FAD00485302 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -273,6 +501,28 @@
 				F51EBA6817761FAD00485302 /* main.m in Sources */,
 				F51EBA6C17761FAD00485302 /* AppDelegate.m in Sources */,
 				F51EBA7517761FAD00485302 /* ViewController.m in Sources */,
+				F5A5E590177623EC00B27EF1 /* Group.m in Sources */,
+				F5A5E591177623EC00B27EF1 /* Interface.m in Sources */,
+				F5A5E592177623EC00B27EF1 /* Member.m in Sources */,
+				F5A5E593177623EC00B27EF1 /* NSObject+AsyncWait.m in Sources */,
+				F5A5E595177623EC00B27EF1 /* Runtime.m in Sources */,
+				F5A5E596177623EC00B27EF1 /* Todo.m in Sources */,
+				F5A5E599177623EC00B27EF1 /* GroupGuideControll.m in Sources */,
+				F5A5E59A177623EC00B27EF1 /* TodoCell.m in Sources */,
+				F5A5E59B177623EC00B27EF1 /* TodoListController.m in Sources */,
+				F5A5E5AA1776266B00B27EF1 /* F.m in Sources */,
+				F5A5E5AB1776266B00B27EF1 /* NSArray+F.m in Sources */,
+				F5A5E5AC1776266B00B27EF1 /* NSDictionary+F.m in Sources */,
+				F5A5E5AD1776266B00B27EF1 /* NSNumber+F.m in Sources */,
+				F5D8434D1777061400460AAC /* ProcessInfo.m in Sources */,
+				F5BAC83617801DED003DD794 /* MemberController.m in Sources */,
+				F5BAC83C17801FFF003DD794 /* MemberCell.m in Sources */,
+				F5BAC840178020C1003DD794 /* GroupListController.m in Sources */,
+				F5BAC844178021E0003DD794 /* SlideController.m in Sources */,
+				F5BAC847178026CD003DD794 /* GroupCell.m in Sources */,
+				F5BAC84B17807600003DD794 /* GroupDetailController.m in Sources */,
+				F5BAC85017807BC0003DD794 /* TodoDetailController.m in Sources */,
+				F5E0F15117896C660009F7C4 /* ProcessCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -380,6 +630,7 @@
 		};
 		F51EBA9117761FAD00485302 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A4AEE1545BF4147B611B72D /* Pods.xcconfig */;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "XTodo/XTodo-Prefix.pch";
@@ -391,6 +642,7 @@
 		};
 		F51EBA9217761FAD00485302 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A4AEE1545BF4147B611B72D /* Pods.xcconfig */;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "XTodo/XTodo-Prefix.pch";
@@ -453,6 +705,7 @@
 				F51EBA9217761FAD00485302 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F51EBA9317761FAD00485302 /* Build configuration list for PBXNativeTarget "XTodoTests" */ = {
 			isa = XCConfigurationList;
@@ -461,6 +714,7 @@
 				F51EBA9517761FAD00485302 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

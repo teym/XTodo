@@ -1,0 +1,22 @@
+PODS:
+  - AFNetworking (HEAD based on 1.3.1)
+  - DragAndDropTableView (HEAD based on 0.1.1)
+  - FlatUIKit (HEAD based on 1.1)
+  - NVSlideMenuController (HEAD based on 1.5.0)
+  - SVPullToRefresh (HEAD based on 0.4.1)
+
+DEPENDENCIES:
+  - AFNetworking (HEAD)
+  - DragAndDropTableView (HEAD)
+  - FlatUIKit (HEAD)
+  - NVSlideMenuController (HEAD)
+  - SVPullToRefresh (HEAD)
+
+SPEC CHECKSUMS:
+  AFNetworking: 9ec8aafb9269236a7630bd8d9838ce2ba30fa2a0
+  DragAndDropTableView: d35259221911439f2d85a3d9e33d8889617a6d92
+  FlatUIKit: 3b15b582ffcfa4e392bedc4d3c5461f9b11c1cc2
+  NVSlideMenuController: 5c1558dbbddf7f0d3a86720074dfe656c7fbd224
+  SVPullToRefresh: 61a0e4bd12bd6f8e3465909810b0fbeb1a28d5f2
+
+COCOAPODS: 0.21.0.rc1
