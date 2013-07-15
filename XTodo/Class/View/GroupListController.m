@@ -44,7 +44,11 @@
         [selfControll.tableView.pullToRefreshView stopAnimating];
     } position:SVPullToRefreshPositionBottom];
     
-    self.groups = [[TheRuntime groups] allValues];
+    NSArray * arr = [[TheRuntime groups] allValues];
+    self.groups = [arr sort:^NSComparisonResult(id obj1, id obj2) {
+        return [[(Group*)obj1 date] compare:[(Group*)obj1 date]];
+    }];
+    
     [self updateHeaderFor:MySelf];
     [self.tableView reloadData];
 }

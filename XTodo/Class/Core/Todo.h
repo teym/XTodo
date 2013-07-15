@@ -20,6 +20,7 @@ typedef enum {Emergency,High,Normal} TodoLevel;
 @property (weak)   Todo *           parent;
 @property (strong) NSArray *        children;
 @property (weak)   Group *          group;
+@property (strong) NSDate *         date;
 +(Todo*) defaultTodoFor:(Member *)member group:(Group *) group;
 +(NSDictionary *) toDict:(Todo *)todo;
 +(BOOL) fromDict:(Todo*) todo dict:(NSDictionary *) dict env:(NSDictionary*) groups;
