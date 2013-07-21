@@ -24,6 +24,8 @@
 		F51EBA8217761FAD00485302 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F51EBA5D17761FAD00485302 /* Foundation.framework */; };
 		F51EBA8A17761FAD00485302 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F51EBA8817761FAD00485302 /* InfoPlist.strings */; };
 		F51EBA8D17761FAD00485302 /* XTodoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F51EBA8C17761FAD00485302 /* XTodoTests.m */; };
+		F52AB5D4179C379600522DC3 /* NetService.m in Sources */ = {isa = PBXBuildFile; fileRef = F5ACEB3A179C350A007F9929 /* NetService.m */; };
+		F52AB5D7179C3F2800522DC3 /* API.m in Sources */ = {isa = PBXBuildFile; fileRef = F52AB5D6179C3F2800522DC3 /* API.m */; };
 		F5A5E590177623EC00B27EF1 /* Group.m in Sources */ = {isa = PBXBuildFile; fileRef = F5A5E576177623EB00B27EF1 /* Group.m */; };
 		F5A5E591177623EC00B27EF1 /* Interface.m in Sources */ = {isa = PBXBuildFile; fileRef = F5A5E578177623EB00B27EF1 /* Interface.m */; };
 		F5A5E592177623EC00B27EF1 /* Member.m in Sources */ = {isa = PBXBuildFile; fileRef = F5A5E57A177623EB00B27EF1 /* Member.m */; };
@@ -88,6 +90,8 @@
 		F51EBA8917761FAD00485302 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F51EBA8B17761FAD00485302 /* XTodoTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XTodoTests.h; sourceTree = "<group>"; };
 		F51EBA8C17761FAD00485302 /* XTodoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XTodoTests.m; sourceTree = "<group>"; };
+		F52AB5D5179C3F2800522DC3 /* API.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = API.h; sourceTree = "<group>"; };
+		F52AB5D6179C3F2800522DC3 /* API.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = API.m; sourceTree = "<group>"; };
 		F5A5E575177623EB00B27EF1 /* Group.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Group.h; sourceTree = "<group>"; };
 		F5A5E576177623EB00B27EF1 /* Group.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Group.m; sourceTree = "<group>"; };
 		F5A5E577177623EB00B27EF1 /* Interface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Interface.h; sourceTree = "<group>"; };
@@ -117,6 +121,8 @@
 		F5A5E5A71776266B00B27EF1 /* NSDictionary+F.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+F.m"; sourceTree = "<group>"; };
 		F5A5E5A81776266B00B27EF1 /* NSNumber+F.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNumber+F.h"; sourceTree = "<group>"; };
 		F5A5E5A91776266B00B27EF1 /* NSNumber+F.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNumber+F.m"; sourceTree = "<group>"; };
+		F5ACEB39179C350A007F9929 /* NetService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetService.h; sourceTree = "<group>"; };
+		F5ACEB3A179C350A007F9929 /* NetService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetService.m; sourceTree = "<group>"; };
 		F5BAC83417801DED003DD794 /* MemberController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MemberController.h; sourceTree = "<group>"; };
 		F5BAC83517801DED003DD794 /* MemberController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MemberController.m; sourceTree = "<group>"; };
 		F5BAC83A17801FFF003DD794 /* MemberCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MemberCell.h; sourceTree = "<group>"; };
@@ -249,6 +255,7 @@
 		F5A5E573177623EB00B27EF1 /* Class */ = {
 			isa = PBXGroup;
 			children = (
+				F5ACEB38179C34F4007F9929 /* Net */,
 				F5A5E5A01776266B00B27EF1 /* Util */,
 				F5A5E574177623EB00B27EF1 /* Core */,
 				F5A5E583177623EB00B27EF1 /* StdPch.h */,
@@ -351,6 +358,17 @@
 				F5A5E5A91776266B00B27EF1 /* NSNumber+F.m */,
 			);
 			path = FAddtion;
+			sourceTree = "<group>";
+		};
+		F5ACEB38179C34F4007F9929 /* Net */ = {
+			isa = PBXGroup;
+			children = (
+				F5ACEB39179C350A007F9929 /* NetService.h */,
+				F5ACEB3A179C350A007F9929 /* NetService.m */,
+				F52AB5D5179C3F2800522DC3 /* API.h */,
+				F52AB5D6179C3F2800522DC3 /* API.m */,
+			);
+			path = Net;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -523,6 +541,8 @@
 				F5BAC84B17807600003DD794 /* GroupDetailController.m in Sources */,
 				F5BAC85017807BC0003DD794 /* TodoDetailController.m in Sources */,
 				F5E0F15117896C660009F7C4 /* ProcessCell.m in Sources */,
+				F52AB5D4179C379600522DC3 /* NetService.m in Sources */,
+				F52AB5D7179C3F2800522DC3 /* API.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -632,9 +652,11 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2A4AEE1545BF4147B611B72D /* Pods.xcconfig */;
 			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "XTodo/XTodo-Prefix.pch";
 				INFOPLIST_FILE = "XTodo/XTodo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -644,9 +666,11 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2A4AEE1545BF4147B611B72D /* Pods.xcconfig */;
 			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "XTodo/XTodo-Prefix.pch";
 				INFOPLIST_FILE = "XTodo/XTodo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};

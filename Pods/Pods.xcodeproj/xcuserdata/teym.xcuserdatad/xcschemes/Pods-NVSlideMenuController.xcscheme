@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0460"
+   LastUpgradeVersion = "0500"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "32082762A102498BAF40335F"
+               BlueprintIdentifier = "432AB23457F54355B887BA60"
                BuildableName = "libPods-NVSlideMenuController.a"
                BlueprintName = "Pods-NVSlideMenuController"
                ReferencedContainer = "container:Pods.xcodeproj">

@@ -113,7 +113,7 @@
 -(void) onSwipeGesture:(UISwipeGestureRecognizer *) gesture
 {
     CGPoint point = [gesture locationInView:self.tableView];
-    NSLog(@"on swip %@ :%@ (%f,%f)",self.tableView,gesture.view,point.x,point.y);
+    LogOut(@"on swip %@ :%@ (%f,%f)",self.tableView,gesture.view,point.x,point.y);
 }
 -(void) onPanGesture:(UIPanGestureRecognizer*) gesture
 {
@@ -129,7 +129,7 @@
         TodoCell * cell = (TodoCell*)[self.tableView cellForRowAtIndexPath:index];
         cell.process = todo.process.process;
     }
-//    NSLog(@"on pan %@ (%f,%f) :(%f,%f)",index,source.x,source.y,local.x,local.y);
+//    LogOut(@"on pan %@ (%f,%f) :(%f,%f)",index,source.x,source.y,local.x,local.y);
 }
 #pragma mark - Table view data source
 
@@ -150,7 +150,7 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    NSLog(@"load todo");
+    LogOut(@"load todo");
     static NSString *CellIdentifier = @"Cell";
     TodoCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
     if (cell == nil) {
@@ -215,10 +215,10 @@
 #pragma mark - drag&drop
 -(void) tableView:(DragAndDropTableView *)tableView willBeginDraggingCellAtIndexPath:(NSIndexPath *)indexPath placeholderImageView:(UIImageView *)placeHolderImageView
 {
-    NSLog(@"begin drag %@",indexPath);
+    LogOut(@"begin drag %@",indexPath);
 }
 -(void) tableView:(DragAndDropTableView *)tableView didEndDraggingCellToIndexPath:(NSIndexPath *)indexPath placeHolderView:(UIImageView *)placeholderImageView
 {
-    NSLog(@"end drag %@",indexPath);
+    LogOut(@"end drag %@",indexPath);
 }
 @end

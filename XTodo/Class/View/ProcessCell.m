@@ -50,7 +50,7 @@
     _process = process;
     CGRect rect = self.contentView.bounds;
     rect.size.width *= _process;
-    NSLog(@"cell setprocess:%f (%f,%f)",process,rect.size.width,rect.size.height);
+    LogOut(@"cell setprocess:%f (%f,%f)",process,rect.size.width,rect.size.height);
     [UIView beginAnimations:@"cell_process" context:NULL];
     //[UIView setAnimationDuration:0.5];
     self.processView.frame = rect;

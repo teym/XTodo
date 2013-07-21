@@ -7,6 +7,7 @@
 //
 #import <UIKit/UIKit.h>
 
+#import "util.h"
 #import "Core/Group.h"
 #import "Core/Interface.h"
 #import "Core/Member.h"
